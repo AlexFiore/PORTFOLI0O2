@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 0 2%;
+    margin: 0;
+}
+/*font-family: 'Roboto Condensed', sans-serif;  */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    box-shadow: 0px 0px 10px 7px rgba(119, 119, 119, 0.75);
+        -moz-box-shadow: 0px 0px 10px 7px rgba(119, 119, 119, 0.75);
+        -webkit-box-shadow: 0px 0px 10px 7px rgba(119, 119, 119, 0.75);
+    margin-left: 0%;
+    margin-right: 0;
+
+}
+nav .profile{
+    display: flex;
+    align-items: center;
+
+}
+nav .profile img{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin-left: 110px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+nav ul li:hover{
+    /* pseudoclasse over pour specifier que 
+    cela s'applique lorseque l'utilisateur passe son curseur dessus */
+    /* border-bottom-color: black; */
+    color: blueviolet;
+
+}
+.pages-content{
+    margin: 4%;
+
+}
+
+.page-content header{
+    margin-top: 5%;
+    max-width: 30%;
+    background-color: #b0e2f8;
+
+}
+.page-content header h1{
+    margin: 0%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3vw; 
+    color: rgb(100, 46, 150);
+    /* vw pour view with pour qu'elle face 3% de la largueur de la surface visible*/
+}
+.page-content .projects-section{
+    margin-top: 6%;
+
+}
+.page-content .projects-section h1{
+    font-family: 'Roboto', sans-serif;
+
+}
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.page-content .projects-section .projects .project {
+    max-width: 200px;
+    margin-right: 20px;
+    display: flex;
+
+}
+.langues{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.langues img{
+    width: 25%;
+    height: auto;
+}
+h1{
+    font-size: 3vw;
+    font-weight: bolder;
+}
+h2{
+    font-size: 2rem;
+}
+.À-propos{
+    background-color: #b0e2f8;
+margin: 0%;
+}
+.propos-texte {
+    font-size: 2vw;
+}
+
+
+
+
+
+footer{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(25, 104, 104);
+    color: white;
+    padding: 10px;
+    
+}
+.colonne p{
+    font-size: 12px;
+    list-style-type: none;
+
+}
+
+
+
+
+
+ 
+@media screen and (max-width: 700px) {
+    nav {
+        justify-content: center;
+    }
+    nav ul{
+        display: none;
+    }
+}

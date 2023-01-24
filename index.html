@@ -1,3 +1,4 @@
+<!-- https://portfolio-xndx.onrender.com -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,47 +9,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <NAV>
-        <div class="profile">
-            <img src="images/LOGO.png" alt="logo">
-        </div>
+     <nav>
         <ul>
-            <li>Accueil</li>
-            <li>Projets</li>
-            <li>Mes compétences</li>
-            <li>À propos</li>
-            <li>Me contacter</li>
+            <div class="profile">
+                <img src="images/LOGO.png" alt="logo">
+            </div>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#competences">Mes compétences</a></li>
+            <li><a href="#propos">À propos</a></li>
+            <li><a href="contact.html">Me contacter</a></li>
         </ul>
-     </NAV>
+    </nav>
 
-     <section class="page-content">
+     <section class="page-content" id="accueil">
         <header>
             <h1>PORTFOLIO</h1>
             <H1>ALESSANDRO FIORE</H1>
         </header>
      </section>
-     <section class="projects-section">
-        <h1>
-            Projets
-        </h1>
+     <section class="projects-section" id="projets">
+        <h1 class="Titres">Projets</h1>
         <h2>CRÉATION D'UN LOGO POUR UNE ASSOCIATION</h2>
         <div class="projects">
-            <div class="project">
-                <img src="images/logob1.jpg" alt="lb1">
-            </div>
-            <div class="projet">
-                <img src="images/logob2.jpg" alt="lb2">
-            </div>
-            <div class="projet">
-                <img src="images/logob3.jpg" alt="lb3">
-            </div>
+                <img class="project" src="images/logob1.jpg" alt="lb1">
+                <img class="project" src="images/logob2.jpg" alt="lb2">
+                <img class="project" src="images/logob3.jpg" alt="lb3">
         </div>
      </section>
-     <section class="competences-section">
-         <h1>Mes compétences</h1>
+     <section class="competences-section" id="competences">
+         <h1 class="Titres">Mes compétences</h1>
          <h2>LOGICIELS</h2>
-         <div class="logiciels">
-            
+        <div class="logiciels">
+            <div class="office">
+                <div class="officeimage"><img class="officep" src="images/microsoft.png" alt="lb3"></div>
+                    <div class="wpe">
+                        <img class="word" src="images/word.png" alt="lb3">
+                        <img class="ppoint" src="images/powerpoint.png" alt="lb3">
+                        <img class="excel" src="images/microsoft-excel-logo.png" alt="lb3">
+
+                        
+                    </div>
+            </div>
+            <div class="creativecloud">
+                <div class="ccloudp"><img src="images/ccloud.png" alt=""></div>
+                    <div class="pap">
+                        <img class="ps" src="images/ps.png" alt="">
+                        <img class="ai" src="images/ai.png" alt="">
+                        <img class="pr" src="images/pr.png" alt="">
+                    </div>
+            </div>
+        </div>
+
          
          <h2>LANGUES </h2>
          <div class="langues">
@@ -57,9 +69,9 @@
             <img src="images/fr.png" alt="">
          </div>
      </section>
-     <section class="À-propos">
-         <h1>À propos</h1>
-         <p class="propos-texte"> Je suis un étudiant d'MMI dans l’université de Corse à Corte. Je suis dans cette filière car depuis que je suis petit j’ai toujours aimé la téchnologie et l’informatique. Mon père est italien et ma mère espagnole c’est pour ça que je maîtrise les deux langues au niveaux écrit et oral. Je suis également passionné des sports, tous me plaisent mais je pratique principalement le football.</p>
+     <section class="À-propos" id="propos">
+         <h1 class="Titres">À propos</h1>
+         <p class="propos-texte"> Je suis un étudiant d'MMI dans l'université de Corse à Corte. Je suis dans cette filière car depuis que je suis petit j'ai toujours aimé la téchnologie et l’informatique. Mon père est italien et ma mère espagnole c’est pour ça que je maîtrise les deux langues au niveaux écrit et oral. Je suis également passionné des sports, tous me plaisent mais je pratique principalement le football.</p>
 
      </section>
 
